@@ -1,0 +1,23 @@
+# Rails
+/log/*
+/tmp/*
+/vendor/bundle
+/config/master.key
+/config/credentials.yml.enc
+
+# From Rails template
+.byebug_history
+
+# Node (if ever added)
+node_modules/
+
+# Docker volumes & data
+pgdata/
+*.pid
+
+# OS files
+.DS_Store
+
+# ENV
+.env
+
